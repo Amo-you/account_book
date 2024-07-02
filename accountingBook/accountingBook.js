@@ -77,16 +77,7 @@ const Modal ={
 	
 
 `,
-created(){
-	
-},
-computed:{
-	state:{
-		get(){
-			
-		},
-	}
-},
+
 watch:{
 	item(){
 		if(this.item === undefined){
@@ -127,6 +118,7 @@ watch:{
         
     }
 },
+	
 methods:{
 	closeModal(){
 		const modalDom = document.getElementById('close')
